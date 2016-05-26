@@ -21,4 +21,12 @@ freddy_got_f = media.Movie("Freddy Got Fingered",
 #freddy_got_f.show_trailer()
 
 movies = [toy_story, avatar, freddy_got_f]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.VALID_RATINGS)
+
+print(media.Movie.__doc__)
+
+print(media.Movie.__name__)
+
+print(media.Movie.__module__)
